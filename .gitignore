@@ -19,6 +19,7 @@ convnet/
 decaf/
 submission/
 cfg/
+darknet
 build/darknet/*
 build_*/
 !build/darknet/YoloWrapper.cs
