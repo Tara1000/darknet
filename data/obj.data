@@ -1,0 +1,5 @@
+classes= 80
+train  = data/trainbig.txt
+valid  = data/trainbig.txt
+names = data/coco.names
+backup = backup/
