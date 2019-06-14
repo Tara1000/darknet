@@ -13,7 +13,7 @@ Get weights and data labels from YOLOv3 folder at [https://drive.google.com/open
 
 How to test YOLOv3 with a single image:
 
-`> ./darknet detector test cfg/coco.data cfg/yolov3.cfg yolov3.weights -ext\_output data/yourimage.jpg`
+`> ./darknet detector test cfg/coco.data cfg/yolov3.cfg yolov3.weights -ext_output data/yourimage.jpg`
 
 To test on a batch of files defined in config file cfg/coco.data
 
@@ -21,16 +21,16 @@ To test on a batch of files defined in config file cfg/coco.data
 
 To validate on a batch of files with IoU threshold 0.75
 
-`> ./darknet detector map data/obj.data cfg/yolov3.cfg yolov3.weights -iou\_thresh 0.75`
+`> ./darknet detector map data/obj.data cfg/yolov3.cfg yolov3.weights -iou_thresh 0.75`
 
 For more things Darknet and YOLOv3 can do, see [https://github.com/AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)
 
 IoU=0.5:0.95 custom validation on a batch of images linked in cfg/coco.data:
 
-`./scripts/avg\_valid\_range\_coco.sh`
+`./scripts/avg_valid_range_coco.sh`
 
 To get inference times of a batch of images linked in cfg/coco.data:
 
-`> ./scripts/inf\_coco.sh`
+`> ./scripts/inf_coco.sh`
 
 If files are missing to run or build the code see [https://github.com/AlexeyAB/darknet](https://github.com/AlexeyAB/darknet) or pre-project AlexeyAB Darknet source from [https://drive.google.com/open?id=1qlXjT-P6vgZk6NylAo7JeJREKY3jccNV](https://drive.google.com/open?id=1qlXjT-P6vgZk6NylAo7JeJREKY3jccNV)
