@@ -36,6 +36,7 @@ To get inference times of a batch of images linked in cfg/coco.data:
 If files are missing to run or build the code see [https://github.com/AlexeyAB/darknet](https://github.com/AlexeyAB/darknet) or pre-project AlexeyAB Darknet source from [https://drive.google.com/open?id=1qlXjT-P6vgZk6NylAo7JeJREKY3jccNV](https://drive.google.com/open?id=1qlXjT-P6vgZk6NylAo7JeJREKY3jccNV)
 
 Guides for help with troubleshooting during install:
+
 [https://saferauto.home.blog/2019/04/06/4o-how-to-install-yolo-darknet-with-cuda-and-opencv-in-ubuntu/](https://saferauto.home.blog/2019/04/06/4o-how-to-install-yolo-darknet-with-cuda-and-opencv-in-ubuntu/)
 
 [http://blog.lpchen.me/2018/10/02/Install-CUDA-10-0-with-cuDNN-7-3-1-on-Ubuntu-18-04-bionic/](http://blog.lpchen.me/2018/10/02/Install-CUDA-10-0-with-cuDNN-7-3-1-on-Ubuntu-18-04-bionic/)
